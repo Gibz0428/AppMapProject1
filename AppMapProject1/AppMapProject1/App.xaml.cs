@@ -20,7 +20,7 @@ namespace AppMapProject1
 
         public App(IPlatformInitializer initializer) : base(initializer) { }
 
-        protected override async void OnInitialized()
+        protected override async void OnInitialized();
         {
             InitializeComponent();
             await NavigationService.NavigateAsync("NavigationPage/MainPage");
